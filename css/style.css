@@ -1,6 +1,5 @@
-:root {
-    --main-blue-color: #264fb4;
-    --promo-text-color: #f0f0f0;
+body {
+}
 
 .wrapper {
     max-width: 1920px;
@@ -8,7 +7,7 @@
 }
 
 #promo {
-    background: var(--main-blue-color);
+    background: #264fb4;
     height: 800px;
 }
 
@@ -22,12 +21,12 @@
     font-size: 2rem;
     font-weight: normal;
     max-width: 360px;
-    color: var(--promo-text-color);
+    color: #f0f0f0;
 }
 
 .promo-description {
     font-size: 1.1rem;
-    color: var(--promo-text-color);
+    color: #f0f0f0;
 }
 
 #contacts {
@@ -38,8 +37,8 @@
 }
 
 .contacts-card {
-    border-top: 4px solid var(--main-blue-color);
-    border-bottom: 4px solid var(--main-blue-color);
+    border-top: 4px solid #264fb4;
+    border-bottom: 4px solid #264fb4;
 }
 
 footer {
